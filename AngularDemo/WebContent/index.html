@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>AngularJS-Demo</title>
+<script src="lib/angular.js"></script>
+<script src="angulardemo.js"></script>
+</head>
+<body ng-controller="demoCtrl">
+<div >
+	{{message}} 
+</div>
+<table>
+<tr>
+<td><h1>Messages</h1>
+<table border=1>
+<tr>
+	<th> Id</th>
+	<th>Message</th>
+	<th>Created Date</th>
+	<th>Author</th>
+</tr>
+<tr ng-repeat="ms in messages">
+	<td> {{ms.id}}</td>
+	<td> {{ms.message}}</td>
+	<td> {{ms.created}}</td>
+	<td> {{ms.author}}</td>
+</tr>
+</table></td>
+<td><h1>Profiles</h1>
+<table border=1>
+<tr>
+	<th> Id</th>
+	<th>Profile Name</th>
+	<th>First Name</th>
+	<th>Last Name</th>
+	<th>Created Date</th>
+</tr>
+<tr ng-repeat="prof in profiles">
+	<td> {{prof.id}}</td>
+	<td> {{prof.profileName}}</td>
+	<td> {{prof.firstName}}</td>
+	<td> {{prof.lastName}}</td>
+	<td> {{prof.created}}</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><h1>Messages</h1>
+<table border=1>
+<tr>
+	<th> Id</th>
+	<th>Message</th>
+	<th>Created Date</th>
+	<th>Author</th>
+</tr>
+<tr ng-repeat="ms in messages">
+	<td> {{ms.id}}</td>
+	<td> {{ms.message}}</td>
+	<td> {{ms.created}}</td>
+	<td> {{ms.author}}</td>
+</tr>
+</table></td>
+<td><h1>Profiles</h1>
+<table border=1>
+<tr>
+	<th> Id</th>
+	<th>Profile Name</th>
+	<th>First Name</th>
+	<th>Last Name</th>
+	<th>Created Date</th>
+</tr>
+<tr ng-repeat="prof in profiles">
+	<td> {{prof.id}}</td>
+	<td> {{prof.profileName}}</td>
+	<td> {{prof.firstName}}</td>
+	<td> {{prof.lastName}}</td>
+	<td> {{prof.created}}</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><h1>Messages</h1>
+<table border=1>
+<tr>
+	<th> Id</th>
+	<th>Message</th>
+	<th>Created Date</th>
+	<th>Author</th>
+</tr>
+<tr ng-repeat="ms in messages">
+	<td> {{ms.id}}</td>
+	<td> {{ms.message}}</td>
+	<td> {{ms.created}}</td>
+	<td> {{ms.author}}</td>
+</tr>
+</table></td>
+<td><h1>Profiles</h1>
+<table border=1>
+<tr>
+	<th> Id</th>
+	<th>Profile Name</th>
+	<th>First Name</th>
+	<th>Last Name</th>
+	<th>Created Date</th>
+</tr>
+<tr ng-repeat="prof in profiles">
+	<td> {{prof.id}}</td>
+	<td> {{prof.profileName}}</td>
+	<td> {{prof.firstName}}</td>
+	<td> {{prof.lastName}}</td>
+	<td> {{prof.created}}</td>
+</tr>
+</table></td>
+</tr>
+</table>
+<br>
+<br>
+
+<div ng-controller="demoCtrl" >
+{{message}}
+</div>
+</body>
+</html>
